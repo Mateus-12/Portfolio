@@ -1,0 +1,60 @@
+body{
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    background-color: darkgray;
+
+}
+#Nome{
+    position: absolute;
+    top: 2.5%;
+    left: 2%;
+    width: 25%;
+    font-size: larger;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#Links{
+    margin-left: 85%;
+    
+}
+#clik{
+    display: inline-block;
+}
+#lista{
+    padding: auto;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkgray;
+}
+.foto{
+    grid-column: 1;
+    justify-content: center;
+    background-color: darkgray;
+    text-align: center;
+
+}
+.sobre{
+    grid-column: 2/ span 2;
+    background-color: darkgray;
+    padding: 10px;
+    text-align: left;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2em;
+    gap: 1em;
+    background-color: darkgray;
+}
+.repositorio{
+    border: 1px solid black;
+    text-align: center;
+}
+
